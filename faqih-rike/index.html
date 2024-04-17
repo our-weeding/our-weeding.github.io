@@ -344,74 +344,54 @@
         </div>
       </section>
 
-      <section id="block-map" class="website-block map text-center noshade py-5 justify-content-center align-items-center" style="background-color:#00000000">
-        <div class="slots" style="display:flex;position:absolute;top:0;left:0;right:0;bottom:0;align-items:center;justify-content:center"></div>
-        <div class="position-relative w-100" style>
-          <div class="d-flex align-items-center justify-content-center position-absolute w-100 h-100" style="top:0;left:0"></div>
-          <div id="map" style="height:640px;max-height:100vh"></div>
-          <script src="../wedew.id/combine/2e96bb7b1729f55719416f237fa5bf26-1709119696.js"></script>
-          <script>
-            var map = L.map('map', {
-              preferCanvas: true,
-              center: [-6.22197521, 106.79903615],
-              zoom: 15,
-              scrollWheelZoom: false,
-              dragging: false,
-            });
-            map.attributionControl.setPrefix('')
-            L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-              attribution: 'Map Tiles by  < a href = "https://www.esri.com"
-              target = "_blank" > Esri < /a>',
-            }).addTo(map);
-            L.marker([-6.22197521, 106.79903615], {
-                icon: L.icon({
-                  iconUrl: 'https://wedew.id/themes/minimal/../wedew-platform/assets/icons/map-marker@2x.png',
-                  iconSize: [30, 40],
-                  iconAnchor: [15, 40],
-                  popupAnchor: [0, -40],
-                }),
-              }).addTo(map).bindPopup(L.popup({
-                  minWidth: 240,
-                  autoClose: false,
-                  closeButton: false,
-                  closeOnEscapeKey: false,
-                  closeOnClick: false,
-                }).setContent('\
-                 < div class = "text-center" > \ < h6 class = "mb-1" > Hotel Fairmont Jakarta < /h6>\ < div class = "mb-1" > Jl.Asia Afrika No 8, Gelora, Tanahabang < /div>\ < div >< a href = "https://maps.google.com/?q=-6.221975205700776,106.79903615266085"
-                  class = "btn btn-sm btn-outline-primary"
-                  target = "_blank" > View Map < /a>< /div > \ < /div>')).openPopup();
-          </script>
-        </div>
-      </section>
-      <section id="block-videos" class="website-block videos text-center noshade py-5 justify-content-center align-items-center" style>
-        <div class="slots" style="display:flex;position:absolute;top:0;left:0;right:0;bottom:0;align-items:center;justify-content:center"></div>
-        <div class="position-relative container" style>
-          <div class="d-flex align-items-center justify-content-center position-absolute w-100 h-100" style="top:0;left:0"></div>
-          <h2 data-aos="fade-down">Videos</h2>
-          <div class="my-5">
-            <div class="row justify-content-center" data-aos="fade-up">
-              <div class="col-lg-4">
-                <a href="#" class="modal-video-thumbnail d-block mb-3" data-video-id="eRaLce0oIr8">
-                  <img src="../img.youtube.com/vi/eRaLce0oIr8/hqdefault.jpg" class="w-100 img-fluid" alt>
-                  <div class="play-btn">
-                    <i class="fa fa-play"></i>
-                  </div>
-                </a>
-                <h5>Video 1</h5>
-              </div>
-              <div class="col-lg-4">
-                <a href="#" class="modal-video-thumbnail d-block mb-3" data-video-id="eRaLce0oIr8">
-                  <img src="../img.youtube.com/vi/eRaLce0oIr8/hqdefault.jpg" class="w-100 img-fluid" alt>
-                  <div class="play-btn">
-                    <i class="fa fa-play"></i>
-                  </div>
-                </a>
-                <h5>Video 2</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+<section id="block-map" class="website-block map bg-light text-center noshade py-5 justify-content-center align-items-center" style="">
+<div class="slots" style="display: flex; position: absolute; top: 0; left: 0; right: 0; bottom: 0; align-items: center; justify-content: center;">
+</div>
+<div class="position-relative w-100" style="">
+<div class="d-flex align-items-center justify-content-center position-absolute w-100 h-100" style="top: 0; left: 0;">
+</div>
+<div id="map" style="height: 640px; max-height: 100vh; position: relative;" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-touch-zoom" tabindex="0"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-299px, -43px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16951/26104" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(398px, 204px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16951/26105" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(654px, 204px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16950/26104" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(398px, -52px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16950/26105" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(654px, -52px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16952/26104" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(398px, 460px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16952/26105" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(654px, 460px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16951/26103" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(142px, 204px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16951/26106" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(910px, 204px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16950/26103" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(142px, -52px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16950/26106" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(910px, -52px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16952/26103" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(142px, 460px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16952/26106" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(910px, 460px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16951/26102" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-114px, 204px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16951/26107" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1166px, 204px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16950/26102" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-114px, -52px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16950/26107" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1166px, -52px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16952/26102" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-114px, 460px, 0px); opacity: 1;"><img alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/15/16952/26107" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1166px, 460px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-overlay-pane"></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-marker-pane"><img src="https://wedew.id/themes/minimal/../wedew-platform/assets/icons/map-marker@2x.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="Marker" tabindex="0" role="button" style="margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(676px, 320px, 0px); z-index: 320;"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"><div class="leaflet-popup  leaflet-zoom-animated" style="opacity: 1; transform: translate3d(676px, 280px, 0px); bottom: -7px; left: -144px;"><div class="leaflet-popup-content-wrapper"><div class="leaflet-popup-content" style="width: 241px;">                <div class="text-center">                    <h6 class="mb-1">Hotel Fairmont Jakarta</h6>                    <div class="mb-1">Jl. Asia Afrika No 8, Gelora, Tanahabang</div>                    <div><a href="https://maps.google.com/?q=-6.221975205700776,106.79903615266085" class="btn btn-sm btn-outline-primary" target="_blank">View Map</a></div>                </div></div></div><div class="leaflet-popup-tip-container"><div class="leaflet-popup-tip"></div></div></div></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(6.6829e+06px, 4.33957e+06px, 0px) scale(16384);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in" aria-disabled="false"><span aria-hidden="true">+</span></a><a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out" aria-disabled="false"><span aria-hidden="true">−</span></a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control">Map Tiles by <a href="https://www.esri.com" target="_blank">Esri</a></div></div></div></div>
+<script src="../wedew.id/combine/2e96bb7b1729f55719416f237fa5bf26-1709119696.js"></script>
+<script>
+    var map = L.map('map', {
+        preferCanvas: true,
+        center: [-6.22197521, 106.79903615],
+        zoom: 15,
+        scrollWheelZoom: false,
+        dragging: false,
+    });
+
+    map.attributionControl.setPrefix('')
+
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution:'Map Tiles by <a href="https://www.esri.com" target="_blank">Esri</a>',
+    }).addTo(map);
+
+
+    L.marker([-6.22197521, 106.79903615], {
+        icon: L.icon({
+            iconUrl: 'https://wedew.id/themes/minimal/../wedew-platform/assets/icons/map-marker@2x.png',
+            iconSize: [30, 40],
+            iconAnchor: [15, 40],
+            popupAnchor: [0, -40],
+        }),
+    }).addTo(map)
+        .bindPopup(L.popup({
+                minWidth: 240,
+                autoClose: false,
+                closeButton: false,
+                closeOnEscapeKey: false,
+                closeOnClick: false,
+            }).setContent('\
+                <div class="text-center">\
+                    <h6 class="mb-1">Hotel Fairmont Jakarta</h6>\
+                    <div class="mb-1">Jl. Asia Afrika No 8, Gelora, Tanahabang</div>\
+                    <div><a href="https://maps.google.com/?q=-6.221975205700776,106.79903615266085" class="btn btn-sm btn-outline-primary" target="_blank">View Map</a></div>\
+                </div>'))
+        .openPopup();
+</script>
+</div>
+</section>
 	    
 	    <section id="block-footer" class="website-block footer bg-dark text-heading-white text-white text-center noshade py-5 justify-content-center align-items-center" style><div class="slots" style="display:flex;position:absolute;top:0;left:0;right:0;bottom:0;align-items:center;justify-content:center"></div><div class="position-relative container" style><div class="d-flex align-items-center justify-content-center position-absolute w-100 h-100" style="top:0;left:0"></div><div class="h1 mb-lg-5">Faqih &amp; Rike</div></div></section>
     </div><script src="../wedew.id/combine/1ebd91ca990e67afc53ec1e9d6f54167-1709119697.js"></script><script>
